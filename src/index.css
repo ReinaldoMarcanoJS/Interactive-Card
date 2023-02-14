@@ -20,6 +20,14 @@ html{
   height: 100%;
 }
 
+@media (min-width:1280px) {
+  #root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 :root{
   --Linear-gradient:hsl(249, 99%, 64%);
   --active-input-border: hsl(278, 94%, 30%);
@@ -30,5 +38,7 @@ html{
   --Very-dark-violet: hsl(278, 68%, 11%);
   --Font-size: 18px;
   --background-Mobile:url("./image/bg-main-mobile.png");
-  
+  --background-Desktop:url("./image/bg-main-desktop.png");
+  --Card_front:url("./image/bg-card-front.png");
+  --Card_back:url("./image/bg-card-back.png");
 }

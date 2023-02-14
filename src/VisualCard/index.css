@@ -1,20 +1,237 @@
 .div-content{
-    background: var(--background-Mobile);
     padding: 0px;
     height: 220px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: var(--background-Mobile);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;	
+}
+
+.img-bg-card-front-mobile{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
 }
 
 .img-card-back{
     margin: 0px;
-    padding: 30px 0px 0px 80px;
+    padding: 30px 0px 0px 65px;
     width: 270px;
+    position: absolute;
 }
 .img-card-front{
     position: absolute;
-    margin: 113px 0px 0px 20px;
+    margin: 113px 0px 0px -38px;
+
     padding: 0px;
     width: 270px;
     box-shadow: 0px 43px 50px 0px rgba(0,0,0,0.13);
 -webkit-box-shadow: 0px 43px 50px 0px rgba(0,0,0,0.13);
 -moz-box-shadow: 0px 43px 50px 0px rgba(0,0,0,0.13);
+}
+
+
+.p-back-card {
+    position: absolute;
+    z-index: 10;
+    font-size: 9px;
+    margin: 96px 0px 0px 256px;
+    color: var(--Light-grayish-violet);
+    letter-spacing: 1px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+
+
+.div-front-pic{
+    width: 35px;
+    margin: 129px 0px 0px -232px;
+    height: 35px;
+    background: var(--White);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.div-front-pictwo{
+    width: 13px;
+    margin: 140px 0px 0px -160px;
+    height: 13px;
+    border: solid 1px var(--Light-grayish-violet);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.p-front-card-numbers{
+    z-index: 10;
+    font-size: 18px;
+    margin: 196px 0px 0px -36px;
+    color: var(--Light-grayish-violet);
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
+
+}
+
+.p-front-card-name{
+    position: absolute;
+    z-index: 10;
+    font-size: 12px;
+    margin: 232px 0px 0px -150px;
+    color: var(--Light-grayish-violet);
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.div-p-numbers{
+    margin: 0px 0px 0px -202px
+}
+.div-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.p-front-card-data{
+    position: absolute;
+    z-index: 10;
+    font-size: 11px;
+    margin: 232px 0px 0px 155px;
+    color: var(--Light-grayish-violet);
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.img-bg-card-front-desktop{
+    display: none;
+}
+
+.div-info-card-name{
+    width: 100%;
+}
+
+.div-info-card-number{
+    width: 100%;
+}
+
+@media (min-width: 1280px){
+    .img-bg-card-front-desktop{
+        display:block;
+        object-fit: cover;
+        width: 90%;
+        height: 100%;
+        z-index: -10;
+    }
+    .img-bg-card-front-mobile{
+        display: none;
+    }
+
+    .div-content {
+        margin-right: 100px;
+    height: 100%;
+    width: 35%;
+    background-image: var(--background-Desktop);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .img-card-front {
+        margin: -23px 0px 0px 201px;
+        width: 420px;
+    }
+
+    .p-front-card-data {
+    margin: 164px 0px 0px 489px;
+}
+    
+    .p-front-card-name {
+        margin: 162px 0px 0px -32px;
+    }
+    .p-front-card-numbers {
+        margin:  0px;
+    font-size: 28px;
+    }
+    .div-front-pic {
+        margin: 0px 0px 0px -110px;
+        width: 45px;
+        height: 45px;
+    }
+    .div-front-pictwo {
+        margin: 13px 0px 0px -20px;
+    width: 18px;
+    height: 18px;
+    }
+    .img-card-back {
+        width: 420px;
+        margin: 218px 0px 0px 281px;
+    }
+    .p-back-card {
+        font-size: 16px;
+    margin: 348px 0px 0px 636px;
+    }
+    .div-form {
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .input-class {
+        width: 95%;
+    }
+    .div-content-mm-yy {
+        width: 46%;
+    }
+
+    .class-input-data-cvc {
+        width: 91%;
+    }
+    .button-form {
+        width: 100%;
+        margin-top: 12px;
+    }    
+
+    .form-card {
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .div-cvc{
+        width: 56%;
+    }
+    
+    .div-info-card-name{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    }
+    .div-info-card-number{
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    }
+
+    .div-cards{
+        width: 100%;
+    height: 50%;
+    }
+
+    .div-p-numbers{
+        position: absolute;
+    width: 400px;
+    height: 50px;
+    margin: 103px 0px 0px 254px;
+    }
 }
