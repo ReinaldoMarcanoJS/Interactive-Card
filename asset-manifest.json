@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Interactive-Card/static/css/main.74b1c1e1.css",
+    "main.js": "/Interactive-Card/static/js/main.0583d414.js",
+    "static/media/bg-main-desktop.png": "/Interactive-Card/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
+    "static/media/bg-card-back.png": "/Interactive-Card/static/media/bg-card-back.23f68fa3aa3d5b33dfc8.png",
+    "static/media/bg-card-front.png": "/Interactive-Card/static/media/bg-card-front.8153e2ca184402a8385f.png",
+    "static/media/bg-main-mobile.png": "/Interactive-Card/static/media/bg-main-mobile.caa4689407777a312ede.png",
+    "index.html": "/Interactive-Card/index.html",
+    "main.74b1c1e1.css.map": "/Interactive-Card/static/css/main.74b1c1e1.css.map",
+    "main.0583d414.js.map": "/Interactive-Card/static/js/main.0583d414.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74b1c1e1.css",
+    "static/js/main.0583d414.js"
+  ]
+}
