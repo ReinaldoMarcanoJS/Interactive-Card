@@ -106,9 +106,7 @@
     letter-spacing: 1px;
 
 }
-.div-cvc{
-    width: 93%;
-}
+
 
 .img-bg-card-front-desktop{
     display: none;
@@ -237,4 +235,8 @@
     height: 50px;
     margin: 103px 0px 0px 272px;
     }
+}
+
+*:disabled{
+    opacity: 80%;
 }
