@@ -116,12 +116,8 @@
 .div-child-content-completed{
     display: flex;
     flex-direction: column;
-    margin: 0px;
-    justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 94%;
-
+    width: 95%;
 }
 
 .img-check{
@@ -170,7 +166,7 @@
 
 @media(min-width:1280px){
     .div-child-content-completed {
-        width: 50%;
+        width: 77%;
     }
     .div-login-completed {
         margin-top: 0px;
