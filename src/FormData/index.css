@@ -37,9 +37,11 @@
 .div-content-mm-yy{
     width: 85%;
 }
-
+.div-cvc{
+    width: 60%;
+}
 .class-input-data{
-    width:30%;
+    width: 25%;
     margin: 10px 10px 10px 0px;
     padding: 10px;
     font-size: 18px;
@@ -185,6 +187,13 @@
         color: var(--Very-dark-violet);
         letter-spacing: 3px;
     
+    }
+    
+    .div-form-check {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
     }
 }
 
