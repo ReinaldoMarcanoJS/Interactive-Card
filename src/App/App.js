@@ -22,21 +22,17 @@ function App() {
   return (
     <React.Fragment>
 
-    <Login>
-      <VisualCard
+    <Login 
         formLogin={formLogin}
         loading={loading}
         setLoading={setLoading}
         sentForm={sentForm}
         setSentForm={setSentForm}
-      />
-      <FormData
         setFormLogin={setFormLogin}
-        setLoading={setLoading}
-        sentForm={sentForm}
-        setSentForm={setSentForm}
         setError={setError}
-      />
+    >
+      <VisualCard/>
+      <FormData/>
     </Login>
       
     </React.Fragment>
