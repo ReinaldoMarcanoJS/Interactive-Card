@@ -69,7 +69,7 @@
 .p-front-card-numbers{
     z-index: 10;
     font-size: 18px;
-    margin: 196px 0px 0px -36px;
+    margin: 196px 0px 0px -24px;
     color: var(--Light-grayish-violet);
     font-family: 'Space Grotesk', sans-serif;
     letter-spacing: 2px;
@@ -80,7 +80,7 @@
 .p-front-card-name{
     position: absolute;
     z-index: 10;
-    font-size: 12px;
+    font-size: 13px;
     margin: 232px 0px 0px -150px;
     color: var(--Light-grayish-violet);
     font-family: 'Space Grotesk', sans-serif;
@@ -89,7 +89,7 @@
 }
 
 .div-p-numbers{
-    margin: 0px 0px 0px -202px
+    margin: 0px 0px 0px -218px
 }
 .div-cards{
     display: flex;
@@ -99,12 +99,15 @@
 .p-front-card-data{
     position: absolute;
     z-index: 10;
-    font-size: 11px;
+    font-size: 13px;
     margin: 232px 0px 0px 155px;
     color: var(--Light-grayish-violet);
     font-family: 'Space Grotesk', sans-serif;
     letter-spacing: 1px;
 
+}
+.div-cvc{
+    width: 93%;
 }
 
 .img-bg-card-front-desktop{
@@ -154,7 +157,7 @@
 }
     
     .p-front-card-name {
-        margin: 162px 0px 0px -32px;
+        margin: 162px 0px 0px 4px;
     }
     .p-front-card-numbers {
         margin:  0px;
@@ -175,8 +178,8 @@
         margin: 218px 0px 0px 281px;
     }
     .p-back-card {
-        font-size: 16px;
-    margin: 348px 0px 0px 636px;
+        font-size: 17px;
+    margin: 352px 0px 0px 636px;
     }
     .div-form {
         justify-content: center;
@@ -232,6 +235,6 @@
         position: absolute;
     width: 400px;
     height: 50px;
-    margin: 103px 0px 0px 254px;
+    margin: 103px 0px 0px 272px;
     }
 }
